@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G1408" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Rokuyo" representedClassName="BzCalendar.Rokuyo">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO" indexed="YES">
+            <userInfo/>
+        </attribute>
+        <attribute name="title" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="titleEN" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <userInfo>
+            <entry key="com.apple.syncservices.IdentityProperties" value=""/>
+        </userInfo>
+    </entity>
+    <entity name="WorldHoliday" representedClassName="BzCalendar.WorldHoliday">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO" indexed="YES">
+            <userInfo/>
+        </attribute>
+        <attribute name="identifier" attributeType="String" indexed="YES">
+            <userInfo/>
+        </attribute>
+        <attribute name="secondTitle" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="title" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <userInfo>
+            <entry key="com.apple.syncservices.IdentityProperties" value=""/>
+        </userInfo>
+    </entity>
+    <entity name="WorldHolidayCalendar" representedClassName="BzCalendar.WorldHolidayCalendar">
+        <attribute name="countryCode" optional="YES" attributeType="String" minValueString="2">
+            <userInfo/>
+        </attribute>
+        <attribute name="identifier" attributeType="String" indexed="YES">
+            <userInfo/>
+        </attribute>
+        <attribute name="secondTitle" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="title" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <userInfo>
+            <entry key="com.apple.syncservices.IdentityProperties" value=""/>
+        </userInfo>
+    </entity>
+    <elements>
+        <element name="WorldHolidayCalendar" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="Rokuyo" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="WorldHoliday" positionX="0" positionY="0" width="128" height="105"/>
+    </elements>
+</model>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="11E53" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BasicAppSetting" representedClassName="BasicAppSetting" syncable="YES">
+        <attribute name="activeTimeFromHour" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="activeTimeFromMinute" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="activeTimeToHour" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="activeTimeToMinute" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="customHolidayCalendarID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customWorkCalendarID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="defaultCalendarID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="defaultDisplayMode" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="designTheme" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontSizeForDay" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="fontSizeForMonth" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="fontSizeForWeek" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="isAutoHolidayDetect" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isDayDetailOnForMonth" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isRokuyoOn" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="weekStartWeekday" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="CalendarSetting" representedClassName="CalendarSetting" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selected" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CloudExtension" representedClassName="CloudExtension" syncable="YES">
+        <attribute name="iCloudEnabled" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+    </entity>
+    <entity name="ColorCode" representedClassName="ColorCode" syncable="YES">
+        <attribute name="colorCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="colorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="palletID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ColorPallet" representedClassName="ColorPallet" syncable="YES">
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="lang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="palletID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="palletName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ColorPallet_Item" representedClassName="ColorPallet_Item" syncable="YES">
+        <attribute name="colorCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="defaultColorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="palletID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ColorSetting" representedClassName="ColorSetting" syncable="YES">
+        <attribute name="background" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="holiday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="holidayBackground" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nonWork" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="saturday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selected" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sunday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="today" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weekday" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DefaultEventSetting" representedClassName="DefaultEventSetting" syncable="YES">
+        <attribute name="allday" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="calendarID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calendarTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="durationHour" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="durationMinute" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="EventTemplate" representedClassName="CDEventTemplate" syncable="YES">
+        <attribute name="alarmsData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="allDay" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="attendeesData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="availability" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="calendarData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="endTimeCompsData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="eventLengthCompsData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organizerData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="recurrenceRulesData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="startTimeCompsData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="templateGroupName" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="templateName" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="timeZoneData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HolidaySelection" representedClassName="HolidaySelection" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SystemActivity" representedClassName="SystemActivity" syncable="YES">
+        <attribute name="isTring_iCloud" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BasicAppSetting" positionX="160" positionY="192" width="128" height="285"/>
+        <element name="CalendarSetting" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="CloudExtension" positionX="160" positionY="192" width="128" height="60"/>
+        <element name="ColorCode" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="ColorPallet" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="ColorPallet_Item" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="ColorSetting" positionX="160" positionY="192" width="128" height="180"/>
+        <element name="DefaultEventSetting" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="EventTemplate" positionX="-144" positionY="-864" width="128" height="300"/>
+        <element name="HolidaySelection" positionX="-162" positionY="9" width="128" height="60"/>
+        <element name="SystemActivity" positionX="160" positionY="192" width="128" height="60"/>
+    </elements>
+</model>

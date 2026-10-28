@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50d" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CalendarExtension" representedClassName="CalendarExtension" syncable="YES">
+        <attribute name="bgAlpha" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bgColorCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="googleNotesIdentifeir" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priority" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="textColorCode" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CustomHolidayCalendar" representedClassName="CustomHolidayCalendar" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="validFromDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="validUntilDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="yearNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="CustomHolidayCalendarItem" representedClassName="CustomHolidayCalendarItem" syncable="YES">
+        <attribute name="bgAlpha" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bgColorCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calendarIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="textColorCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventExtension" representedClassName="EventExtension" syncable="YES">
+        <attribute name="bgAlpha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bgColorCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calendarIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="templateName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textColorCode" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventTemplate" representedClassName="CDEventTemplate" syncable="YES">
+        <attribute name="alarmsData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="allDay" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="attendeesData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="availability" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="calendarData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="endTimeCompsData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="eventLengthCompsData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organizerData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="recurrenceRulesData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="startTimeCompsData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="templateGroupName" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="templateName" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="timeZoneData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CalendarExtension" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="CustomHolidayCalendar" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="CustomHolidayCalendarItem" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="EventExtension" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="EventTemplate" positionX="160" positionY="192" width="128" height="300"/>
+    </elements>
+</model>

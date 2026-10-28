@@ -1,0 +1,46 @@
+//
+// Prefix header for all source files of the 'BzCalendar' target in the 'BzCalendar' project
+//
+
+#import <Availability.h>
+
+// ToDo: AppConstants.hは必要か？
+#import "AppConstants.h"
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+#endif
+
+#define EMPTY_STRING    @""
+
+/*
+#ifdef	APP_DEBUG
+#define	LOG(...)	NSLog(__VA_ARGS__);
+#define LOG_METHOD	NSLog(@"%s", __func__);
+#define ABORT		NSLog(@"aborting at: %s", __func__); abort();
+#define SINGLTON_INIT_NOT_ALLOWED  NSLog(@"aborting at: %s", __func__); abort();
+#else
+#define LOG(...)	;
+#define LOG_METHOD	;
+#define ABORT		;
+#define SINGLTON_INIT_NOT_ALLOWED return nil;
+#endif
+*/
+#ifdef	APP_DEBUG
+#define LOG(...)	;
+#define LOG_METHOD	;
+#define ABORT		;
+#define SINGLTON_INIT_NOT_ALLOWED return nil;
+#else
+#define LOG(...)	;
+#define LOG_METHOD	;
+#define ABORT		;
+#define SINGLTON_INIT_NOT_ALLOWED return nil;
+#endif
+//#define APP_TIME    1

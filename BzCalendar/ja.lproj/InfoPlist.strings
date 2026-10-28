@@ -1,0 +1,12 @@
+/* 
+  BzCalendar-Info.strings
+  BzCalendar
+
+  Created by Katsumi Kobayashi on 2018/07/26.
+  Copyright © 2018年 Katsumi KOBAYASHI. All rights reserved.
+*/
+
+
+"NSCalendarsUsageDescription" = "BzCalendarはiOS標準カレンダーイベントを表示するアプリです。またBzCalendarはiOS標準カレンダーイベントの作成・編集もします。";
+//"NSContactsUsageDescription" = "BzCalendarのカレンダーはiOSが提供するSDKを利用してカレンダーの選択を行います。カレンダー選択時、iPhone/iCalカレンダーの場合はカレンダーのシェア情報を表示するため、または他のユーザーにカレンダーのシェアを招待するために「連絡先」情報が必要です。";
+
